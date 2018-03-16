@@ -183,6 +183,27 @@ a:hover, a:focus {
     color: #1ABAFF;
 }
 
+@media (min-width: 768px) {
+    h1 {
+        font-size: 46px;
+        line-height: 56px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 52px;
+        line-height: 64px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 58px;
+        line-height: 72px;
+    }
+}
+
 /*
     Components: Author
 */
@@ -224,27 +245,6 @@ a:hover, a:focus {
     }
     .c-author__image {
         margin-bottom: 16px;
-    }
-}
-
-@media (min-width: 768px) {
-    h1 {
-        font-size: 46px;
-        line-height: 56px;
-    }
-}
-
-@media (min-width: 992px) {
-    h1 {
-        font-size: 52px;
-        line-height: 64px;
-    }
-}
-
-@media (min-width: 1200px) {
-    h1 {
-        font-size: 58px;
-        line-height: 72px;
     }
 }
 
